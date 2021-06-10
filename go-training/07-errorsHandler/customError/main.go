@@ -23,7 +23,7 @@ func main() {
 
 	if _, err := checkUserNameExist("UltiRequiem"); err != nil {
 		if ok := IsErrUserNameExist(err); ok {
-			fmt.Println("user appleboy already exist.")
+			fmt.Println("User UltiRequiem already exist.")
 		}
 	}
 }
