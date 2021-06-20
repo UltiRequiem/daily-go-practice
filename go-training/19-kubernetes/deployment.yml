@@ -1,0 +1,34 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: gotraining
+    tier: frontend
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5
+  template:
+    metadata:
+      labels:
+        app: gotraining
+        tier: frontend
+    spec:
+      containers:
+      - name: go-hello
+        image: appleboy/golang-http:VERSION
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 8080
+        env:
+        - name: FOR_GODS_SAKE_PLEASE_REDEPLOY
+          value: 'THIS_STRING_IS_REPLACED_DURING_BUILD'
