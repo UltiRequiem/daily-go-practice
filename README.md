@@ -1,9 +1,9 @@
 # Daily Golang Practice
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/UltiRequiem/daily-go-practice)](https://goreportcard.com/report/github.com/UltiRequiem/daily-go-practice)
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/daily-go-practice?color=blue&label=Total%20Lines)
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-go-practice/blob/main/LICENSE)
 [![Golang Badge](https://img.shields.io/badge/Go%20is-Cool-1f425f.svg)](http://golang.org)
-[![Go Report Card](https://goreportcard.com/badge/github.com/UltiRequiem/daily-go-practice)](https://goreportcard.com/report/github.com/UltiRequiem/daily-go-practice)
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-go-practice/graphs/code-frequency).
 
