@@ -1,3 +1,3 @@
 # Go Training
 
-Exercises from https://github.com/go-training/training
+Exercises from [go-training/training](https://github.com/go-training/training).
