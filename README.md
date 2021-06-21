@@ -5,6 +5,8 @@
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-go-practice/blob/main/LICENSE)
 [![Golang Badge](https://img.shields.io/badge/Go%20is-Cool-1f425f.svg)](http://golang.org)
 
+![Golang Wallpaper](./assets/media/docs/wall.png)
+
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-go-practice/graphs/code-frequency).
 
 ## Similar to:
