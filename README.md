@@ -13,3 +13,4 @@ You can check the Code frequency [here](https://github.com/UltiRequiem/daily-go-
 
 - [UltiRequiem/daily-js-practice](https://github.com/UltiRequiem/daily-js-practice)
 - [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
+- [UltiRequiem/daily-ruby-practice](https://github.com/UltiRequiem/daily-ruby-practice)
