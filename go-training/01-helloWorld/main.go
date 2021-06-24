@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	mt.Printf(helloWorld("Zero Requiem!"))
+	fmt.Printf(helloWorld("Zero Requiem!"))
 	fmt.Println("This is Golang.")
 	a := 1
 	if a >= 1 {

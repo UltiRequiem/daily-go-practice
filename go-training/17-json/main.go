@@ -18,13 +18,13 @@ func main() {
 	if err := json.Unmarshal(userData, &user); err != nil {
 		panic(err)
 	}
-	fmt.Println(user) 
+	fmt.Println(user)
 
 	var userMap map[string]interface{}
 	if err := json.Unmarshal(userData, &userMap); err != nil {
 		panic(err)
 	}
-	userID := userMap["id"].(float64) 
+	userID := userMap["id"].(float64)
 	fmt.Println(userID)
 	fmt.Println(user)
 

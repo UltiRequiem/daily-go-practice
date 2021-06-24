@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/UltiRequiem/daily-go-practice/go-training/05-interface/lexus"
 	"github.com/UltiRequiem/daily-go-practice/go-training/05-interface/01/toyota"
+	"github.com/UltiRequiem/daily-go-practice/go-training/05-interface/lexus"
 )
 
 type car interface {
