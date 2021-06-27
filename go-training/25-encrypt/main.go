@@ -9,9 +9,8 @@ import (
 	"time"
 )
 
-// HelloWorld for hello world
 func HelloWorld() string {
-	return "Hello World, traefik workshop!"
+	return "Hello World!"
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
