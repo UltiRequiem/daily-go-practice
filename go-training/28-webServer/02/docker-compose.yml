@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    image: go-training/app
+    restart: always
+    logging:
+      options:
+        max-size: "100k"
+        max-file: "3"
+    labels:
+      - "traefik.http.routers.app.rule=Host(`app.docker.localhost`)"
+
+  reverse-proxy:
+    image: traefik:v2.0
+    command: --api.insecure=true --providers.docker
+    ports:
+      - "8088:80"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
