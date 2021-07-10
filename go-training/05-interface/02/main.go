@@ -17,11 +17,11 @@ func (h Human) Run() {
 
 type Singer struct {
 	Human
-	collecton string
+	collection string
 }
 
 func (s Singer) Sing() {
-	fmt.Printf("%s can sing %s\n", s.name, s.collecton)
+	fmt.Printf("%s can sing %s\n", s.name, s.collection)
 }
 
 type Student struct {
@@ -42,7 +42,7 @@ type Men interface {
 func main() {
 	tom := Singer{
 		Human:     Human{"Tom", 22},
-		collecton: "learn golang",
+		collection: "learn golang",
 	}
 	peter := Student{
 		Human:  Human{"Perter", 18},
