@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app:
+    image: app:0.0.1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    stop_signal: SIGINT
+    stop_grace_period: 30s
+    logging:
+      options:
+        max-size: "100k"
+        max-file: "3"
